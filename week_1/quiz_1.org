@@ -1,0 +1,79 @@
+:PROPERTIES:
+:UNNUMBERED: notoc
+:END:
+
+#+AUTHOR: Marcio Woitek
+#+TITLE: Graded Quiz 1
+#+LATEX_HEADER: \usepackage[a4paper,left=1cm,right=1cm,top=1cm,bottom=1cm]{geometry}
+#+LATEX_HEADER: \usepackage[american]{babel}
+#+LATEX_HEADER: \usepackage{enumitem}
+#+LATEX_HEADER: \usepackage{float}
+#+LATEX_HEADER: \usepackage[sc]{mathpazo}
+#+LATEX_HEADER: \linespread{1.05}
+#+LATEX_HEADER: \renewcommand{\labelitemi}{$\rhd$}
+#+LATEX_HEADER: \setlength\parindent{0pt}
+#+LATEX_HEADER: \setlist[itemize]{leftmargin=*}
+#+LATEX_HEADER: \setlist{nosep}
+#+OPTIONS: ':t
+#+OPTIONS: author:nil
+#+OPTIONS: date:nil
+#+OPTIONS: title:nil
+#+OPTIONS: toc:nil
+#+STARTUP: hideblocks
+
+#+BEGIN_SRC latex
+\thispagestyle{empty}
+\pagestyle{empty}
+#+END_SRC
+
+* Problem 1
+
+*Answer:* What is best for you depends on what others do.
+
+* Problem 2
+
+*Answer:* B, D and F
+- (B) Players
+- (D) Strategies
+- (F) Payoffs
+
+* Problem 3
+
+*Answer:* If we just assume that each player maximizes his/her payoff, we fail
+to pin down how each one anticipates the other players' behaviors.
+
+* Problem 4
+
+*Answer:* You choose the best available option.
+
+* Problem 5
+
+*Answer:*
+- Players are making mutual best replies.
+- No players can increase their payoffs by deviating by themselves.
+
+* Problem 6
+
+*Answer:* 75\\
+
+In the first case (before the construction of the bypass), the Nash equilibrium
+corresponds to the following situation:
+- 25 drivers choose the road of length 350;
+- 125 drivers choose the road of length 250.
+Then the traveling time for both roads is the same: \( 350+25=250+125=375 \).\\
+In the second case (after the construction of the bypass), the Nash equilibrium
+corresponds to the following situation:
+- no driver chooses the road of length 350;
+- 50 drivers choose the road of length 250;
+- 100 drivers choose the road of length 200.
+Then the traveling time becomes \( 50+250=100+200=300 \). This means the
+traveling time goes from 375 to 300. Therefore, this time decreased by 75.
+
+* Problem 7
+
+*Answer:* He found a unified solution concept that can be applied to a wide
+range of games.
+
+# Local Variables:
+# ispell-alternate-dictionary: "american"
+# End:
