@@ -1,0 +1,99 @@
+:PROPERTIES:
+:UNNUMBERED: notoc
+:END:
+
+#+AUTHOR: Marcio Woitek
+#+TITLE: Graded Quiz 2
+#+LATEX_HEADER: \usepackage[a4paper,left=1cm,right=1cm,top=1cm,bottom=1cm]{geometry}
+#+LATEX_HEADER: \usepackage[american]{babel}
+#+LATEX_HEADER: \usepackage{enumitem}
+#+LATEX_HEADER: \usepackage{float}
+#+LATEX_HEADER: \usepackage[sc]{mathpazo}
+#+LATEX_HEADER: \linespread{1.05}
+#+LATEX_HEADER: \renewcommand{\labelitemi}{$\rhd$}
+#+LATEX_HEADER: \setlength\parindent{0pt}
+#+LATEX_HEADER: \setlist[itemize]{leftmargin=*}
+#+LATEX_HEADER: \setlist{nosep}
+#+OPTIONS: ':t
+#+OPTIONS: author:nil
+#+OPTIONS: date:nil
+#+OPTIONS: title:nil
+#+OPTIONS: toc:nil
+#+STARTUP: hideblocks
+
+#+BEGIN_SRC latex
+\thispagestyle{empty}
+\pagestyle{empty}
+#+END_SRC
+
+* Problem 1
+
+*Answer:* 3\\
+
+First, consider the best option for Player 1 for each strategy of Player 2:
+- Player 2 chooses X: Player 1 chooses C;
+- Player 2 chooses Y: Player 1 chooses B;
+- Player 2 chooses Z: Player 1 chooses A or C.
+Next, consider the best option for Player 2 for each strategy of Player 1:
+- Player 1 chooses A: Player 2 chooses X or Z;
+- Player 1 chooses B: Player 2 chooses Y;
+- Player 1 chooses C: Player 2 chooses X.
+Therefore, there are *3 Nash equilibria*:
+- Player 1 chooses A and Player 2 chooses Z;
+- Player 1 chooses B and Player 2 chooses Y;
+- Player 1 chooses C and Player 2 chooses X.
+
+* Problem 2
+
+*Answer:* Belief disagreement may lead to non-Nash outcomes, and its realization
+is unpredictable.
+
+* Problem 3
+
+*Answer:* In a Nash equilibrium, both players choose C.\\
+
+First, consider the best option for Player 1 for each strategy of Player 2:
+- Player 2 chooses A: Player 1 chooses C;
+- Player 2 chooses B: Player 1 chooses C;
+- Player 2 chooses C: Player 1 chooses C.
+*The best strategy for Player 1 is always C*.\\
+Next, consider the best option for Player 2 for each strategy of Player 1:
+- Player 1 chooses A: Player 2 chooses C;
+- Player 1 chooses B: Player 2 chooses C;
+- Player 1 chooses C: Player 2 chooses C.
+*The best strategy for Player 2 is always C*. Therefore, *a Nash equilibrium DOES
+exist*, and it corresponds to the situation where *both players choose C*.
+
+* Problem 4
+
+*Answer:* This game is similar to the prisoner's dilemma in that it has a better
+outcome than Nash equilibrium for all players.\\
+
+If both players chose strategy B, that would be better for both of them.
+
+* Problem 5
+
+*Answer:*
+- Version 1: To play a game many times and have better and better beliefs
+  against others' behavior.
+- Version 2:
+  + There can be many Nash equilibria in a game.
+  + The /de facto/ standard of a new technology may not be efficient.
+  + A game might have good and bad Nash equilibria (the former are better than
+    the latter for everyone).
+
+* Problem 6
+
+*Answer:* The prisoner's dilemma, because defection is best for both players and
+they do not consider that mutual cooperation can be attained.
+
+* Problem 7
+
+*Answer:*
+- Version 1: Agreement is fulfilled without imposing penalty or reward.
+- Version 2: There is no guarantee that such an adjustment process always
+  converges to a Nash equilibrium.
+
+# Local Variables:
+# ispell-alternate-dictionary: "american"
+# End:
