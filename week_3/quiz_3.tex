@@ -1,0 +1,178 @@
+% Created 2024-07-13 Sat 12:39
+% Intended LaTeX compiler: pdflatex
+\documentclass[11pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{graphicx}
+\usepackage{longtable}
+\usepackage{wrapfig}
+\usepackage{rotating}
+\usepackage[normalem]{ulem}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{capt-of}
+\usepackage{hyperref}
+\usepackage[a4paper,left=1cm,right=1cm,top=1cm,bottom=1cm]{geometry}
+\usepackage[american, english]{babel}
+\usepackage{enumitem}
+\usepackage{float}
+\usepackage[sc]{mathpazo}
+\linespread{1.05}
+\renewcommand{\labelitemi}{$\rhd$}
+\setlength\parindent{0pt}
+\setlist[itemize]{leftmargin=*}
+\setlist{nosep}
+\date{}
+\title{Graded Quiz 3}
+\hypersetup{
+ pdfauthor={Marcio Woitek},
+ pdftitle={Graded Quiz 3},
+ pdfkeywords={},
+ pdfsubject={},
+ pdfcreator={Emacs 29.4 (Org mode 9.8)}, 
+ pdflang={English}}
+\begin{document}
+
+\thispagestyle{empty}
+\pagestyle{empty}
+\section*{Problem 1}
+\label{sec:org43b4c7f}
+
+\textbf{Answer:} Player 2 does not play R.\\
+
+Player 2 is rational, and Player 1 knows it. So Player 1 knows that, no matter
+which strategy he chooses, Player 2 will choose the strategy that maximizes his
+payoff. Then consider the best reply by Player 2 for each strategy of Player 1:
+\begin{itemize}
+\item Player 1 chooses U: Player 2 chooses L;
+\item Player 1 chooses B: Player 2 chooses C.
+\end{itemize}
+Therefore, Player 2 will never respond with strategy R, and Player 1 knows it.
+\section*{Problem 2}
+\label{sec:org26b23dd}
+
+\textbf{Answer:} Only A.\\
+
+First, consider the possible replies by Player 1 for each strategy of Player 2:
+\begin{itemize}
+\item Player 2 chooses X:
+\begin{itemize}
+\item C is the best reply;
+\item A is worse;
+\item B is the worst reply.
+\end{itemize}
+\item Player 2 chooses Y:
+\begin{itemize}
+\item B is the best reply;
+\item C is worse;
+\item A is the worst reply.
+\end{itemize}
+\item Player 2 chooses Z:
+\begin{itemize}
+\item C is the best reply;
+\item A is worse;
+\item B is the worst reply.
+\end{itemize}
+\end{itemize}
+This makes it clear that C is always a better strategy than A. In other words, A
+is dominated by C.\\
+Next, consider the possible replies by Player 2 for each strategy of Player 1:
+\begin{itemize}
+\item Player 1 chooses A:
+\begin{itemize}
+\item X is the best reply;
+\item Y is worse;
+\item Z is the worst reply.
+\end{itemize}
+\item Player 1 chooses B:
+\begin{itemize}
+\item Z is the best reply;
+\item Y is worse;
+\item X is the worst reply.
+\end{itemize}
+\item Player 1 chooses C:
+\begin{itemize}
+\item Z is the best reply;
+\item X is worse;
+\item Y is the worst reply.
+\end{itemize}
+\end{itemize}
+In this case, there is no dominated strategy. Therefore, the only dominated
+strategy in this game is A.
+\section*{Problem 3}
+\label{sec:org8d9a2b5}
+
+\textbf{Answer:} Player 2 knows that Player 1 never chooses A. Given that, Z is always
+best for Player 2. Therefore, Player 2 chooses Z.\\
+
+Player 1 is rational, and Player 2 knows it. So Player 2 knows that, no matter
+which strategy he chooses, Player 1 will choose the strategy that maximizes his
+payoff. Then, based on our previous analysis, Player 1 will never select
+strategy A. Player 2 is aware of this fact. In other words, Player 2 knows that
+his opponent will choose either B or C. In both of these cases, since Player 2
+is rational, he will choose the best reply. As we've seen, the best reply to B
+is Z. This is also the best strategy against C. Therefore, Player 1 will never
+select A, and Player 2 will select Z.
+\section*{Problem 4}
+\label{sec:org9a38ad3}
+
+\textbf{Answer:} Both players are rational. Both players know that they are both
+rational. Both players know that they know that they are both rational.\\
+
+In the previous problem, we've examined the situation in which
+\begin{itemize}
+\item both players are rational, and
+\item Player 2 knows that Player 1 is rational.
+\end{itemize}
+In this situation (Case 1), Player 1 chooses either B or C, and Player 2 chooses
+Z.\\
+Next, consider a similar situation (Case 2):
+\begin{itemize}
+\item both players are rational, and
+\item Player 1 knows that Player 2 is rational.
+\end{itemize}
+Since Player 2 is rational, he'll never play strategy Y. Player 1 is aware of
+this fact. This player is rational. So he'll select C, which is the best reply
+to both X and Z. Therefore, in this situation, Player 1 chooses C, and Player 2
+chooses either X or Z.\\
+Let us combine the above conclusions into a single general statement. When both
+players are rational and one of them knows about the rationality of his
+opponent, the player with more knowledge has only one option, and his opponent
+has two options. Then both players knowing that they're both rational isn't
+enough for the Nash equilibrium to be played.\\
+Finally, consider the following case:
+\begin{itemize}
+\item both players are rational,
+\item both players know that they're both rational, and
+\item both players know that they know that they're both rational.
+\end{itemize}
+First, we start from the perspective of Player 1. This player is rational, and
+he knows that Player 2 is also rational. As a result, Player 1 will reach the
+same conclusion we did for Case 2. In other words, this player will select
+strategy C. But now Player 2 knows this will be his opponent's choice. Since
+Player 2 is rational, he'll select his best option, strategy Z. In this case,
+the Nash equilibrium is played.\\
+To conclude, we now start from Player 2's perspective. This player is rational,
+and he knows that his opponent is also rational. As a result, Player 2 will
+reach the same conclusion we did for Case 1. In other words, this player will
+select strategy Z. But now Player 1 knows this will be his opponent's choice.
+Since Player 1 is rational, he'll select his best option, strategy C. Once
+again, the Nash equilibrium is played. Notice that, for this to occur, Player 1
+has to know that both players know that they're both rational.
+\section*{Problem 5}
+\label{sec:orgeddb093}
+
+\textbf{Answer:} Strategy B does not provide a strictly higher payoff than Strategy A,
+but Strategy A sometimes provides a strictly higher payoff.
+\section*{Problem 6}
+\label{sec:orge1ff703}
+
+\textbf{Answer:} When there is uncertainty, payoffs represent utility from each
+outcome, which describes players' attitude to risks.
+\section*{Problem 7}
+\label{sec:org0c682e0}
+
+\textbf{Answer:} They do not choose 0 because choosing 1/4 is always better
+(irrespective of the opponent's location). Similarly, they do not choose 1
+either.
+\end{document}
