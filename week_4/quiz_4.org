@@ -1,0 +1,70 @@
+:PROPERTIES:
+:UNNUMBERED: notoc
+:END:
+
+#+AUTHOR: Marcio Woitek
+#+TITLE: Graded Quiz 4
+#+LATEX_HEADER: \usepackage[a4paper,left=1cm,right=1cm,top=1cm,bottom=1cm]{geometry}
+#+LATEX_HEADER: \usepackage[american]{babel}
+#+LATEX_HEADER: \usepackage{enumitem}
+#+LATEX_HEADER: \usepackage{float}
+#+LATEX_HEADER: \usepackage[sc]{mathpazo}
+#+LATEX_HEADER: \linespread{1.05}
+#+LATEX_HEADER: \renewcommand{\labelitemi}{$\rhd$}
+#+LATEX_HEADER: \setlength\parindent{0pt}
+#+LATEX_HEADER: \setlist[itemize]{leftmargin=*}
+#+LATEX_HEADER: \setlist{nosep}
+#+OPTIONS: ':t
+#+OPTIONS: author:nil
+#+OPTIONS: date:nil
+#+OPTIONS: title:nil
+#+OPTIONS: toc:nil
+#+STARTUP: hideblocks
+
+#+BEGIN_SRC latex
+\thispagestyle{empty}
+\pagestyle{empty}
+#+END_SRC
+
+* Problem 1
+
+*Answer:* Each gas station has an incentive to undercut the high price to steal
+customers from their opponent.
+
+* Problem 2
+
+*Answer:* The contract specifies a sufficiently large penalty when a gas station
+deviates from the high price specified in the contract.
+
+* Problem 3
+
+*Answer:* By deviating from the high price, a gas station can gain some profit
+today, but its future profits may decrease.
+
+* Problem 4
+
+*Answer:*
+- Version 1: Once the restaurant cheats a customer, it will be known through
+  rumors or through messages posted on the Internet sites. Then, other customers
+  stop coming to the restaurant.
+- Version 2: Charge price = $2 for as long as no one has deviated. If anyone
+  deviates, then charge $1 forever.
+
+* Problem 5
+
+*Answer:* We say that we can "make society better" if we can increase at least
+one player's payoff without decreasing any other players' payoffs. An outcome is
+efficient if it is no longer possible to make society better in that sense.
+
+* Problem 6
+
+*Answer:* Clean up the living room, if nobody has ever failed to do so. If
+anyone ever fails to clean up the room, then you will never do so.
+
+* Problem 7
+
+*Answer:* \( 3+d+d^2+d^3+\cdots \)
+
+# Local Variables:
+# ispell-alternate-dictionary: "american"
+# End:
